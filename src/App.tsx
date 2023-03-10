@@ -1,6 +1,10 @@
 import React from "react";
 import About from "./components/About/About";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
 import Nav from "./components/Nav/Nav";
+import Project from "./components/Project/Project";
+import Skill from "./components/Skills/Skill";
 import Slider from "./components/Slider/Slider";
 
 function App() {
@@ -9,6 +13,10 @@ function App() {
             <Nav />
             <Slider />
             <About />
+            <Project />
+            <Skill />
+            <Contact />
+            <Footer />
     </React.Fragment>
   );
 }

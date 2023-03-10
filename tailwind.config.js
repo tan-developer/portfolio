@@ -14,9 +14,10 @@ module.exports = {
         "dark-grey" : "#131316"
       },
       height : {
-        "60vh" : "60svh"
-      }
+        "60vh" : "60vh",
+        "80vh" : "80vh",
+        "screen/2": "50vh"
+      },
     },
-  },
-  plugins: [],
+  }
 }

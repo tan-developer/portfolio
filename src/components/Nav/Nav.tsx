@@ -1,4 +1,5 @@
 import { useState } from "react";
+import scroll from "../../js/scroll"
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Nav: React.FC = () => {
@@ -16,7 +17,6 @@ const Nav: React.FC = () => {
     ? "md:block w-full md:w-auto md:m-0 border-2 border-zinc-300 p-2 rounded-lg mt-5 md:border-0"
     : "hidden md:block w-full md:w-auto md:m-0 border-2 border-zinc-300 p-2 rounded-lg mt-5 md:border-0 ";
 
-  console.log(menu)
   return (
     <nav className="sm:px-4 px-12 md:py-1 py-2 font-medium bg-opacity-90 bg-white fixed top-0 w-full z-10">
       <div className="container flex flex-wrap md:justify-around justify-between mx-auto">
@@ -24,7 +24,10 @@ const Nav: React.FC = () => {
           {"<"}Tan{" />"}
         </a>
 
-        <button onClick={() => update(!isActive)} className="block md:hidden focus:ring-2 focus:ring-gray-200 focus:outline-none  items-center p-2 rounded-lg">
+        <button
+          onClick={() => update(!isActive)}
+          className="block md:hidden focus:ring-2 focus:ring-gray-200 focus:outline-none  items-center p-2 rounded-lg"
+        >
           <svg
             className="w-6 h-6"
             aria-hidden="true"
@@ -45,13 +48,20 @@ const Nav: React.FC = () => {
             {nav.map(([title, link]) => {
               return (
                 <li
+                onClick={() => {
+                  scroll(title);
+                  update(false);
+                  console.log("hehe")
+                }}
                   key={link}
                   className="md:border-0  md:[&:not(:last-child)]:mr-5 p-2 pl-4 border-2 border-zinc-300 rounded-lg [&:not(:last-child)]:mb-2 active:bg-zinc-300 md:active:bg-transparent md:mb-px"
                 >
                   <a
                     className=" hover:text-sky-600"
                     href={link}
-                    onClick={(e) => e.stopPropagation()}
+                    onClick={(e) => {
+                      e.preventDefault();
+                    }}
                   >
                     {title}
                   </a>

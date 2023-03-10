@@ -5,12 +5,10 @@ import scroll from '../../js/scroll.js'
 
 const Slider: React.FC = () => {
 
-  console.log(scroll)
-
   return (
-    <section className="gardient relative w-full h-screen bg-dark-grey flex flex-col items-center justify-center text-white">
+    <section className="relative gardient w-full h-screen bg-dark-grey flex flex-col items-center justify-center text-white">
       <div className="text-lg">Passionate / Youth / Desireable</div>
-      <div className="text-7xl my-7"><ReactTypingEffect text={["PHAM NGOC TAN"]} speed={100}/></div>
+      <div className="md:text-7xl text-3xl my-7"><ReactTypingEffect text={["PHAM NGOC TAN", "FRONT-END DEVELOPER"]} speed={80}/></div>
       <div className="gap-10 grid grid-flow-col ">
         <a href="https://github.com/tan-developer" target="_blank" rel="noreferrer">
           <i className="fab fa-github  fa-3x socialicons hover:text-blue-500 transition-all" ></i>
@@ -27,6 +25,8 @@ const Slider: React.FC = () => {
       </div>
 
       <div className="cursor-pointer absolute bottom-5 text-2xl"><i onClick={() => scroll(window.innerHeight)} className="fa-sharp fa-solid fa-arrow-down"></i></div>
+
+      <div className="mt-10"><a className='border-2 py-3 px-5 hover:bg-white hover:text-dark-grey transition-all' href="https://www.topcv.vn/xem-cv/AgdTCQ9QCAkKDAMBUwBYV1IDUg4EWgMHA1cEWw9f6c" target="_blank" rel="noopener noreferrer">Resume</a></div>
     </section>
   );
 };
