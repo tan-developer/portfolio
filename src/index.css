@@ -10,3 +10,7 @@ html {
 * , *::after , *::before {
   box-sizing: border-box;
 }
+
+#root {
+  overflow-y: hidden;
+}
