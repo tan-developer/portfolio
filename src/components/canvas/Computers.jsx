@@ -63,9 +63,8 @@ const ComputersCanvas = () => {
     >
       <Suspense fallback={<CanvasLoader />}>
         <OrbitControls
-          autoRotate={true}
           enableZoom={false}
-          maxPolarAngle={Math.PI / 2}
+          maxPolarAngle={-Math.PI}
           minPolarAngle={Math.PI / 2}
         />
         <Computers isMobile={isMobile} />
