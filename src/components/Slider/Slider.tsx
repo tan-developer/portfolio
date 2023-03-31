@@ -50,7 +50,7 @@ const Slider: React.FC = () => {
 
       <div className="cursor-pointer absolute bottom-5 text-2xl">
         <i
-          onClick={() => scroll(window.innerHeight)}
+          onClick={() => scroll("About")}
           className="fa-sharp fa-solid fa-arrow-down"
         ></i>
       </div>
