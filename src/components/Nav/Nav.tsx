@@ -1,5 +1,6 @@
 import { useState } from "react";
 import scroll from "../../js/scroll"
+import styles from "./bg-radient.module.css"
 
 /* eslint-disable jsx-a11y/anchor-is-valid */
 const Nav: React.FC = () => {
@@ -14,11 +15,11 @@ const Nav: React.FC = () => {
   ];
 
   const menu = isActive
-    ? "md:block w-full md:w-auto md:m-0 border-2 border-zinc-300 p-2 rounded-lg mt-5 md:border-0"
-    : "hidden md:block w-full md:w-auto md:m-0 border-2 border-zinc-300 p-2 rounded-lg mt-5 md:border-0 ";
+    ? "md:block w-full md:w-auto md:m-0  border-zinc-300 p-2 rounded-lg mt-5 md:border-0"
+    : "hidden md:block w-full md:w-auto md:m-0  border-zinc-300 p-2 rounded-lg mt-5 md:border-0 ";
 
   return (
-    <nav className="sm:px-4 px-12 md:py-1 py-2 font-medium bg-opacity-90 bg-white fixed top-0 w-full z-10">
+    <nav className={`${styles.bg} sm:px-4 px-12 md:py-1 py-2 font-medium bg-opacity-90 bg-white fixed top-0 w-full z-10`} >
       <div className="container flex flex-wrap md:justify-around justify-between mx-auto">
         <a href="#" className="font-bold font-mono text-2xl flex items-center">
           {"<"}Tan{" />"}
@@ -54,7 +55,7 @@ const Nav: React.FC = () => {
                   console.log("hehe")
                 }}
                   key={link}
-                  className="md:border-0  md:[&:not(:last-child)]:mr-5 p-2 pl-4 border-2 border-zinc-300 rounded-lg [&:not(:last-child)]:mb-2 active:bg-zinc-300 md:active:bg-transparent md:mb-px"
+                  className="md:border-0 md:[&:not(:last-child)]:mr-5 p-2 pl-4 border-2 border-gray-200 bg-gray-100 rounded [&:not(:last-child)]:mb-2 active:bg-zinc-300 md:active:bg-transparent md:mb-px"
                 >
                   <a
                     className=" hover:text-sky-600"
