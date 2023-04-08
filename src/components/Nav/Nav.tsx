@@ -55,7 +55,7 @@ const Nav: React.FC = () => {
                   console.log("hehe")
                 }}
                   key={link}
-                  className="md:border-0 md:[&:not(:last-child)]:mr-5 p-2 pl-4 border-2 border-gray-200 bg-gray-100 rounded [&:not(:last-child)]:mb-2 active:bg-zinc-300 md:active:bg-transparent md:mb-px"
+                  className="md:border-0 md:[&:not(:last-child)]:mr-5 p-2 pl-4 border-2 border-gray-200 bg-gray-100 sm:bg-inherit rounded [&:not(:last-child)]:mb-2 active:bg-zinc-300 md:active:bg-transparent md:mb-px"
                 >
                   <a
                     className=" hover:text-sky-600"

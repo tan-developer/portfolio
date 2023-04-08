@@ -11,13 +11,13 @@ import Slider from "./components/Slider/Slider";
 function App() {
   return (
     <React.Fragment>
-            <Nav />
-            <Slider />
-            <About />
-            <Project />
-            <Skill />
-            <Contact />
-            <Footer />
+        <Nav />
+        <Slider />
+        <About />
+        <Project />
+        <Skill />
+        <Contact />
+        <Footer />
     </React.Fragment>
   );
 }

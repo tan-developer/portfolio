@@ -6,7 +6,7 @@ const About: React.FC = () => {
       <div className="md:min-w-min flex justify-center">
         <img
           className="rounded-full object-contain h-full"
-          src="assets/potrait.jpg"
+          src="assets/portrait.jpg"
           alt=""
         />
       </div>
