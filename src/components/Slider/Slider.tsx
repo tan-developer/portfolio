@@ -2,18 +2,14 @@
 import ReactTypingEffect from "react-typing-effect";
 import "./animation.css";
 import scroll from "../../js/scroll.js";
-import ComputersCanvas from "../canvas/Computers";
 import React from "react";
 
 const Slider: React.FC = () => {
   return (
       <section
-        className="pt-20 gardient overflow-y-hidden relative w-full h-screen bg-dark-grey flex flex-col items-center justify-start text-white"
+        className="pt-20 gardient overflow-y-hidden relative w-full h-screen bg-dark-grey flex flex-col items-center justify-center text-white"
       >
 
-        <div className="absolute bottom-0  left-0 w-full h-1/2 -z-0">
-          <ComputersCanvas />
-        </div>
         <div className="text-lg">Passionate / Youth / Desireable</div>
         <div className="md:text-7xl text-3xl my-7">
           <ReactTypingEffect

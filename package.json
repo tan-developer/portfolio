@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://tan-developer.github.io/portfolio/",
+  "homepage": "",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,6 +19,7 @@
     "maath": "^0.5.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hamburger-menus": "^1.0.16",
     "react-native-typewriter": "^0.7.0",
     "react-native-typing-animation": "^0.1.7",
     "react-scripts": "5.0.1",

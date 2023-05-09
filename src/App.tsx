@@ -1,10 +1,12 @@
 import React from "react";
 import About from "./components/About/About";
-import ComputersCanvas from "./components/canvas/Computers";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
-import Nav from "./components/Nav/Nav";
 import Project from "./components/Project/Project";
+import Nav from "./components/Nav/nav";
+
+import "react-hamburger-menus/dist/style.css";
+
 import Skill from "./components/Skills/Skill";
 import Slider from "./components/Slider/Slider";
 

@@ -7889,6 +7889,11 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.11.tgz"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
+react-hamburger-menus@^1.0.16:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/react-hamburger-menus/-/react-hamburger-menus-1.0.16.tgz#df34ffa21a56e1ccd7ff79bb173810a38b4409fd"
+  integrity sha512-OY1xX+d/khc7aCQuEihN5O+bOJaeBRvZgvN97NeiyJL4iN2qFSEsIavwCHNcl7enSwXb8pWnRzHfPA1t5M+XGw==
+
 react-intersection-observer@^8.26.2:
   version "8.34.0"
   resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-8.34.0.tgz#6f6e67831c52e6233f6b6cc7eb55814820137c42"
