@@ -47,9 +47,9 @@ const Nav: React.FC = () => {
         },
 
         navigationButton: {
-          width: "5rem",
-          height: "5rem",
-          fontSize: "1rem",
+          width: "4rem",
+          height: "4rem",
+          fontSize: ".8rem",
         },
       }}
     >
@@ -59,6 +59,10 @@ const Nav: React.FC = () => {
             <li
               key={link}
               onClick={() => {
+                scroll(label);
+                commitChange(!change);
+              }}
+              onFocus={() => {
                 scroll(label);
                 commitChange(!change);
               }}
