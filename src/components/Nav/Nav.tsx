@@ -25,12 +25,11 @@ const Nav: React.FC = () => {
         '[for="rhm-gn-navigation-toggle-input"]'
       )[0] as HTMLLabelElement;
 
-      setArr([input , label]);
+      setArr([input, label]);
     });
 
-
     if (arr) {
-      arr[0].checked = !arr[0].checked
+      arr[0].checked = !arr[0].checked;
     }
   }, [change]);
 

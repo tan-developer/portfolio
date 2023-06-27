@@ -3,8 +3,7 @@ import About from "./components/About/About";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Project from "./components/Project/Project";
-import Nav from "./components/Nav/nav";
-
+import Nav from "./components/Nav/Nav";
 import "react-hamburger-menus/dist/style.css";
 
 import Skill from "./components/Skills/Skill";
