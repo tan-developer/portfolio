@@ -8,7 +8,7 @@ const Project: React.FC = () => {
       full_name: "tan-developer/ji-oh-clone",
       description:
         "Cloning famous e-conmerce website using React and Typescript functionally",
-      html_url: "https://github.com/tan-developer/ji-oh-clone",
+      html_url: "https://tan-developer.github.io/ji-oh-clone/",
       languages: [
         { name: "Typescript", percent: 59.4 },
         { name: "SASS", percent: 31.6 },
@@ -17,14 +17,15 @@ const Project: React.FC = () => {
     },
     {
       id: 2,
-      name: "Na tour",
-      full_name: "tan-developer/na-tour",
+      name: "Personal Blog",
+      full_name: "tan-developer/personal-blog",
       description:
-        "Amazing grid and flex design template and light width only CSS HTML for best traffic",
-      html_url: "https://github.com/tan-developer/na-tour",
+        "Personal Blog using Nextjs with MDXEmbed , TextEditor for creator and many thing more.....",
+      html_url: "https://tanngocph.vercel.app/",
       languages: [
-        { name: "SASS", percent: 80.1 },
-        { name: "HTML", percent: 19.9 },
+        { name: "Typescript", percent: 69.7 },
+        { name: "SASS", percent: 21.2 },
+        { name: "HTML", percent: 4.1 }
       ],
     },
     {
@@ -32,7 +33,7 @@ const Project: React.FC = () => {
       name: "Portfolio",
       full_name: "tan-developer/portfolio",
       description: "Repo of this website using Typescript",
-      html_url: "https://github.com/tan-developer/portfolio",
+      html_url: "https://tan-developer.github.io/portfolio",
       languages: [
         { name: "Typescript", percent: 69.4 },
         { name: "SASS", percent: 21.1 },
